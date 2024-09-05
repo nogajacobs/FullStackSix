@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "3",
+      "username": "customer2",
+      "password": "pass456",
+      "role": "customer",
+      "website": "mywebsite.com"
+    },
+    {
+      "id": "85fc",
+      "username": "noga",
+      "password": "noga12",
+      "role": "customer"
+    },
+    {
+      "id": "2479",
+      "username": "emuna",
+      "password": "oren12",
+      "role": "admin"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+/* Global styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #1c1e21;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Form styles */
+  form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #606770;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #1877f2;
+    outline: none;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #165db3;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  /* LoginPage styles */
+  .LoginPage,
+  .RegisterPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .LoginPage h2,
+  .RegisterPage h1 {
+    margin-bottom: 20px;
+    color: #1877f2;
+    font-size: 2rem;
+  }
+  
+  /* CompleteProfilePage styles */
+  .CompleteProfilePage {
+    padding: 20px;
+  }
+  
+  .CompleteProfilePage .user-details {
+    margin-bottom: 20px;
+  }
+  
+  .CompleteProfilePage form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .CompleteProfilePage .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .CompleteProfilePage button {
+    grid-column: span 2;
+  }
+  
+  /* HomePage styles */
+  .HomePage {
+    text-align: center;
+  }
+  
+  .HomePage h2 {
+    margin-bottom: 20px;
+    color: #1877f2;
+    font-size: 2rem;
+  }
+  
+  .HomePage button {
+    margin: 10px;
+  }
+  
+  /* ManageUsersPage styles */
+  .ManageUsersPage,
+  .PostsPage,
+  .AlbumsPage,
+  .InfoPage,
+  .PhotosPage {
+    padding: 20px;
+  }
+  
+  .ManageUsersPage ul,
+  .PostsPage ul,
+  .AlbumsPage ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ManageUsersPage li,
+  .PostsPage li,
+  .AlbumsPage li {
+    padding: 10px;
+    border-bottom: 1px solid #dddfe2;
+  }
+  
+  .ManageUsersPage li:last-child,
+  .PostsPage li:last-child,
+  .AlbumsPage li:last-child {
+    border-bottom: none;
+  }
+  
+  .InfoPage .user-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .InfoPage .user-info div {
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+  }
+  
+  .PhotosPage .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  
+  .PhotosPage .photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .PhotosPage .photo-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
